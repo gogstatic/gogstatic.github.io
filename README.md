@@ -1,0 +1,1 @@
+# gogstatic.github.io
